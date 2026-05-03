@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body {
+    font-family: "Homemade Apple", sans-serif;
+    background-image: url(images/background/background1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+}
+
+.navWrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 20pt;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;;
+    padding: 20px;
+    gap: 10px;
+
+    background-image: url("images/tape/tapeNavFull.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a {
+     opacity: 0.6;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: rgb(36, 36, 36);
+}
+
+
