@@ -13,6 +13,8 @@ body {
     width: 1200px;
 }
 
+/*Navigation*/
+
 .navWrapper {
     width: 1200px;
     display: flex;
@@ -44,5 +46,150 @@ nav a {
 nav a:hover {
     color: rgb(36, 36, 36);
 }
+
+
+/*Title*/
+
+.markerTitle {
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 17pt;
+    line-height: 70px;
+    opacity: 0.7;
+
+    transform-origin: 10px 10px;
+    rotate: -5deg;
+    
+}
+
+/*Card*/
+
+.cardWrapper {
+      rotate: 3deg;
+}
+.card {
+    position: relative;
+
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 800px;
+    background-color: #EDE1C5;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+
+    transform-origin: 10px 10px;
+}
+
+.card h2 {
+    font-size: 25pt;
+    margin-left: 100px;
+
+    margin-bottom: -20px;
+}
+
+.card ul {
+    font-size: 18pt;
+    
+}
+
+.card p, a{
+    font-size: 20pt;
+}
+
+.cardText {
+    margin-top: -30px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.yes {
+    display: inline-block;
+    background-image: url("images/paper\ 1.png");
+    background-size: cover;
+
+    rotate: -5deg;
+}
+
+.knowMe {
+    display: inline-block;
+    background-image: url("images/paper\ 2.png");
+    background-size: cover;
+    background-position-y: -30px;
+
+    margin-left: 100px;
+    rotate: -5deg;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*decoration*/
+
+.tape {
+    display: flex;
+
+    position: absolute;
+    top: -130px;
+    left: 550px;
+}
+
+.tape img {
+    width: 20%;
+}
+
+.postIt {
+    font-family: "Permanent Marker";
+    position: absolute;
+    background-color: #FFE789;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.103);
+    
+
+    top: -100px;
+    left: 870px;
+    rotate: -5deg;
+}
+
+.postIt h1 {
+    rotate: 3deg;
+    line-height: 60px;
+    opacity: 0.5;
+}
+
+.postItTape {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+
+    top: -150px;
+    left: 940px;
+}
+
+.postItTape img {
+    width: 60%;
+    rotate: -10deg;
+}
+
+
+
+
 
 
