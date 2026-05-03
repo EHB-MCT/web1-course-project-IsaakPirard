@@ -23,7 +23,6 @@ body {
 
 nav {
     font-family: "Permanent Marker", sans-serif;
-    font-size: 20pt;
 
     display: flex;
     flex-direction: row;
@@ -38,7 +37,8 @@ nav {
 }
 
 nav a {
-     opacity: 0.6;
+    font-size: 25pt;
+    opacity: 0.5;
     padding: 20px;
     text-decoration: none;
     color: black;
@@ -187,6 +187,21 @@ nav a:hover {
     width: 60%;
     rotate: -10deg;
 }
+
+
+
+/*remark*/
+
+.remark {
+    font-size: 17pt;
+    margin-left: 100px;
+    margin-top: 50px;
+    opacity: 0.6;
+
+    transform-origin: 10px 10px;
+    rotate: -8deg;
+}
+
 
 
 
