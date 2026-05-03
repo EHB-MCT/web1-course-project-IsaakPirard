@@ -3,7 +3,7 @@
 
 body {
     font-family: "Homemade Apple", sans-serif;
-    background-image: url(images/background/background1.png);
+    background-image: url(/images/background/background2.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ nav {
     padding: 20px;
     gap: 10px;
 
-    background-image: url("images/tape/tapeNavFull.png");
+    background-image: url("/images/tape/tapeNavFull.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,99 +51,59 @@ nav a:hover {
 
 
 /*Title*/
+.titleWrapper {
+    text-align: right;
+}
 
 .markerTitle {
-    margin-left: 100px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 70px;
+    margin-top: 10px;
     margin-bottom: 60px;
     font-family: "Permanent Marker", sans-serif;
-    font-size: 17pt;
+    font-size: 18pt;
     line-height: 70px;
-    opacity: 0.7;
+    opacity: 0.6;
 
     transform-origin: 10px 10px;
-    rotate: -5deg;
+    rotate: -2deg;
     
 }
 
-/*Card*/
+/* deco */
 
-.cardWrapper {
+.deco {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -80px;
+}
+
+.soup {
+    margin-top: 50px;
+}
+
+
+/*paper*/
+/*note: I used an image here because I don't know how to make a mask, and I feel like it would make it pretty complicated. More than it needs to.*/
+
+.rippedPaper {
+    position: relative;
+    margin-top: -700px;
+    
+}
+
+.rippedPaper img {
+    width: 60%;
+}
+
+.paperWrapper {
     position: relative;
     
 }
 
-.card {
-    rotate: 3deg;
-    margin-left: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    width: 800px;
-    background-color: #EDE1C5;
-    padding: 20px;
-    padding-bottom: 50px;
 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
-
-    transform-origin: 10px 10px;
-}
-
-.card h2 {
-    font-size: 25pt;
-    margin-left: 100px;
-
-    margin-bottom: -20px;
-}
-
-.card ul {
-    font-size: 18pt;
-    
-}
-
-.card p {
-    font-size: 20pt;
-}
-
-.card a {
-    font-size: 20pt;
-}
-
-.cardText {
-    margin-top: -30px;
-
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 100px;
-}
-
-.yes {
-    display: inline-block;
-    background-image: url("images/paper\ 1.png");
-    background-size: cover;
-
-    rotate: -5deg;
-}
-
-.knowMe {
-    display: inline-block;
-    background-image: url("images/paper\ 2.png");
-    background-size: cover;
-    background-position-y: -30px;
-
-    margin-left: 100px;
-    rotate: -5deg;
-
-}
-
-.card a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 /*decoration*/
 
@@ -160,26 +120,27 @@ nav a:hover {
     width: 20%;
 }
 
+
 .postIt {
     pointer-events: none;
     font-family: "Permanent Marker";
     position: absolute;
     background-color: #FFE789;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.103);
     
 
-    top: -100px;
-    left: 870px;
-    rotate: -5deg;
+    top: 620px;
+    left: 570px;
+    rotate: -2deg;
 }
 
 .postIt h1 {
-    rotate: 3deg;
+    rotate: -6deg;
     line-height: 60px;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .postItTape {
@@ -187,15 +148,31 @@ nav a:hover {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 140px;
+    gap: 70px;
 
-    top: -150px;
-    left: 940px;
+    top: 560px;
+    left: 580px;
 }
 
 .postItTape img {
     width: 60%;
-    rotate: -10deg;
+    rotate: -5deg;
+}
+
+.postItTape2 {
+    pointer-events: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    top: 620px;
+    left: 500px;
+}
+
+.postItTape2 img {
+    width: 60%;
+    rotate: -3deg;
 }
 
 
@@ -204,13 +181,25 @@ nav a:hover {
 
 .remark {
     font-size: 17pt;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: -410px;
     opacity: 0.6;
 
     transform-origin: 10px 10px;
-    rotate: -8deg;
+    rotate: -5deg;
 }
+
+/*lightning*/
+
+.lightning {
+    display: flex;
+
+    float: right;
+    margin-top: 250px;
+    margin-right: 250px;
+    gap: 20px;
+}
+
 
 
 
