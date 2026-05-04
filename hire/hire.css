@@ -5,7 +5,7 @@ body {
     font-family: "Homemade Apple", sans-serif;
     background-image: url(/images/groceries.svg), url(/images/background/background3.png);
     background-size: 500px, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat, repeat;
     background-position-y: 55vh, 0;
     display: flex;
     justify-content: center;
@@ -254,7 +254,7 @@ nav a:hover {
 .remark {
     position: absolute;
     font-size: 17pt;
-    left: 1100px;
+    left: 60vw;;
     margin-top: 170px;
     opacity: 0.6;
 
@@ -263,6 +263,43 @@ nav a:hover {
 }
 
 
+.announcement {
+    position: absolute;
+    left: 70px;
+    background-color: #EDE1C5;
+    padding: 30px;
+    font-size: 30pt;
+    top: 15vh;
+    z-index: 10;
+    text-align: center;
+    box-shadow: 0px 0px 100vw black;
+
+    rotate: 3deg;
+    visibility: hidden;
+}
+
+@media (max-width: 1200px)  {
+
+    .announcement {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 1000px)  {
+    .announcement {
+        visibility: visible;
+        left: 100px;
+
+    }
+}
+
+@media (max-width: 600px)  {
+    .bigTiannouncementtle {
+        visibility: visible;
+        left: 100px;
+
+    }
+}
 
 
 
