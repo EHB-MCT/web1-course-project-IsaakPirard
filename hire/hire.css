@@ -262,6 +262,13 @@ nav a:hover {
     rotate: -12deg;
 }
 
+/* Not really a mobile version but kind of responsive */
+/* Also animation */
+
+@keyframes spin {
+    from {rotate: 0;}
+    to {rotate: 360deg}
+}
 
 .announcement {
     position: absolute;
@@ -269,17 +276,24 @@ nav a:hover {
     background-color: #EDE1C5;
     padding: 30px;
     font-size: 30pt;
-    top: 15vh;
+    top: 20vh;
     z-index: 10;
     text-align: center;
     box-shadow: 0px 0px 100vw black;
 
     rotate: 3deg;
     visibility: hidden;
+
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
 }
 
 @media (max-width: 1200px)  {
-
+    body {
+        overflow-y: hidden;
+    }
     .announcement {
         visibility: visible;
     }
