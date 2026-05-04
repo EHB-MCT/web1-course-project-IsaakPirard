@@ -135,11 +135,19 @@ nav a:hover {
 
     display: inline-block;
     background-image: url("/images/paper\ 1.png");
-    background-size: cover;
-    background-position-y: -15px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 10px -15px;
+    
 
     rotate: -5deg;
 }
+
+.hireMe:hover {
+    background-size: 95%;
+    background-position: 5px -20px;
+}
+
 
 
 /*Card 2*/

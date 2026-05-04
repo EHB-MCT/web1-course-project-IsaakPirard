@@ -135,6 +135,11 @@ nav a:hover {
     rotate: -5deg;
 }
 
+.yes:hover {
+    background-size: 105%;
+    background-position: -2.5px -2.5px;
+}
+
 .knowMe {
     display: inline-block;
     background-image: url("images/paper\ 2.png");
@@ -143,7 +148,11 @@ nav a:hover {
 
     margin-left: 100px;
     rotate: -5deg;
+}
 
+.knowMe:hover {
+    background-size: 105%;
+    background-position: -2.5px -32.5px;;
 }
 
 
