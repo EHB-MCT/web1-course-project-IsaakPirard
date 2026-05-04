@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body {
+    font-family: "Homemade Apple", sans-serif;
+    background-image: url(/images/groceries.svg), url(/images/background/background3.png);
+    background-size: 500px, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 55vh, 0;
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+
+}
+
+li::marker {
+    font-size: 12pt;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 1200px;
+    
+    background-image: url("/images/crumbledPostIt.svg");
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 850px 570px;
+}
+
+/*Navigation*/
+
+.navWrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    position: relative;
+    font-family: "Permanent Marker", sans-serif;
+
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;;
+    padding: 20px;
+    gap: 10px;
+
+    background-image: url("/images/tape/tapeNavFull.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 10;
+
+}
+
+nav a {
+    font-size: 25pt;
+    opacity: 0.5;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: rgb(36, 36, 36);
+}
+
+
+/*Title*/
+
+.markerTitle {
+    margin-left: 50px;
+    margin-bottom: 60px;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 17pt;
+    line-height: 70px;
+    opacity: 0.7;
+
+    transform-origin: 10px 10px;
+    rotate: -2deg;
+    
+}
+
+/*Card*/
+
+.cardWrapper {
+    position: relative;
+    margin-top: -100px;
+    
+}
+
+.card {
+    rotate: -5deg;
+    margin-left: 300px;
+    margin-top: -10px;
+    
+    width: 350px;
+    background-color: #EDE1C5;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    transform-origin: 10px 10px;
+}
+
+
+.card ul {
+    margin-top: 40px;
+    line-height: 60px;
+    font-size: 18pt;
+    
+}
+
+.card p {
+    font-size: 20pt;
+}
+
+.card a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.hireMe {
+    margin-top: -30px;
+    margin-left: 80px;
+
+    display: inline-block;
+    background-image: url("/images/paper\ 1.png");
+    background-size: cover;
+    background-position-y: -15px;
+
+    rotate: -5deg;
+}
+
+
+/*Card 2*/
+
+.card2 {
+    rotate: 3deg;
+    margin-left: 700px;
+    margin-top: -450px;
+    
+    width: 300px;
+    background-color: #EDE1C5;
+    padding: 20px;
+    padding-right: 0px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    transform-origin: 10px 10px;
+}
+
+
+.card2 ul {
+    line-height: 50px;
+    font-size: 15pt;
+
+}
+
+.card2 p {
+    font-size: 20pt;
+}
+
+.card2 a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#crossed {
+    text-decoration: line-through;
+}
+
+
+
+
+/*decoration*/
+
+
+.tape1 {
+    position: relative;
+    margin-left: 610px;
+    margin-top: -350px;
+}
+
+.tape1 img {
+    width: 20%;
+}
+
+
+.tape2 {
+    position: relative;
+    margin-left: 370px;
+    margin-top: -280px;
+
+    rotate: -8deg;
+}
+.tape2 img {
+    width: 20%;
+}
+
+.tape3 {
+    position: relative;
+    margin-left: 720px;
+    margin-top: -30px;
+}
+.tape3 img {
+    width: 20%;
+}
+
+.tape4 {
+    position: relative;
+    margin-left: 630px;
+    margin-top: -75px;
+}
+
+.tape4 img {
+    width: 25%;
+}
+
+.tape5 {
+    position: relative;
+    margin-left: 900px;
+    margin-top: -300px;
+
+}
+.tape5 img {
+    width: 50%;
+}
+
+
+
+/*remark*/
+
+.remark {
+    position: absolute;
+    font-size: 17pt;
+    left: 1100px;
+    margin-top: 170px;
+    opacity: 0.6;
+
+    transform-origin: 10px 10px;
+    rotate: -12deg;
+}
+
+
+
+
+
+
+
+

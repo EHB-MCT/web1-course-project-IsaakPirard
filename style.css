@@ -7,6 +7,10 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
 }
 
 .wrapper {
@@ -107,6 +111,11 @@ nav a:hover {
 
 .card a {
     font-size: 20pt;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .cardText {
@@ -137,13 +146,7 @@ nav a:hover {
 
 }
 
-.card a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+
 
 /*decoration*/
 
